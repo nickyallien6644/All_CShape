@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PRN292_Demo4Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CTDT">
+          <Key>
+            <PropertyRef Name="IDMH" />
+          </Key>
+          <Property Name="IDMH" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ma_Nganh" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="HocKy">
+          <Key>
+            <PropertyRef Name="Ma_HK" />
+          </Key>
+          <Property Name="Ma_HK" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ma_NH" Type="varchar" MaxLength="50" />
+          <Property Name="Hocky" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="MonHoc">
+          <Key>
+            <PropertyRef Name="IDMH" />
+          </Key>
+          <Property Name="IDMH" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ma_HK" Type="varchar" MaxLength="50" />
+          <Property Name="TenMH" Type="varchar" MaxLength="50" />
+          <Property Name="SoTC" Type="int" Nullable="false" />
+          <Property Name="LyThuyet" Type="int" />
+          <Property Name="ThucHanh" Type="int" />
+        </EntityType>
+        <EntityType Name="NamHoc">
+          <Key>
+            <PropertyRef Name="Ma_NH" />
+          </Key>
+          <Property Name="Ma_NH" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ten_NH" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="PRN292_Demo4ModelStoreContainer">
+          <EntitySet Name="CTDT" EntityType="Self.CTDT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HocKy" EntityType="Self.HocKy" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MonHoc" EntityType="Self.MonHoc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NamHoc" EntityType="Self.NamHoc" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PRN292_Demo4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CTDT">
+          <Key>
+            <PropertyRef Name="IDMH" />
+          </Key>
+          <Property Name="IDMH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Ma_Nganh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="HocKy">
+          <Key>
+            <PropertyRef Name="Ma_HK" />
+          </Key>
+          <Property Name="Ma_HK" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Ma_NH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Hocky1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="MonHoc">
+          <Key>
+            <PropertyRef Name="IDMH" />
+          </Key>
+          <Property Name="IDMH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Ma_HK" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TenMH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SoTC" Type="Int32" Nullable="false" />
+          <Property Name="LyThuyet" Type="Int32" />
+          <Property Name="ThucHanh" Type="Int32" />
+        </EntityType>
+        <EntityType Name="NamHoc">
+          <Key>
+            <PropertyRef Name="Ma_NH" />
+          </Key>
+          <Property Name="Ma_NH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Ten_NH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="PRN292_Demo4Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CTDTs" EntityType="Self.CTDT" />
+          <EntitySet Name="HocKies" EntityType="Self.HocKy" />
+          <EntitySet Name="MonHocs" EntityType="Self.MonHoc" />
+          <EntitySet Name="NamHocs" EntityType="Self.NamHoc" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PRN292_Demo4ModelStoreContainer" CdmEntityContainer="PRN292_Demo4Entities">
+          <EntitySetMapping Name="CTDTs">
+            <EntityTypeMapping TypeName="PRN292_Demo4Model.CTDT">
+              <MappingFragment StoreEntitySet="CTDT">
+                <ScalarProperty Name="IDMH" ColumnName="IDMH" />
+                <ScalarProperty Name="Ma_Nganh" ColumnName="Ma_Nganh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HocKies">
+            <EntityTypeMapping TypeName="PRN292_Demo4Model.HocKy">
+              <MappingFragment StoreEntitySet="HocKy">
+                <ScalarProperty Name="Ma_HK" ColumnName="Ma_HK" />
+                <ScalarProperty Name="Ma_NH" ColumnName="Ma_NH" />
+                <ScalarProperty Name="Hocky1" ColumnName="Hocky" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MonHocs">
+            <EntityTypeMapping TypeName="PRN292_Demo4Model.MonHoc">
+              <MappingFragment StoreEntitySet="MonHoc">
+                <ScalarProperty Name="IDMH" ColumnName="IDMH" />
+                <ScalarProperty Name="Ma_HK" ColumnName="Ma_HK" />
+                <ScalarProperty Name="TenMH" ColumnName="TenMH" />
+                <ScalarProperty Name="SoTC" ColumnName="SoTC" />
+                <ScalarProperty Name="LyThuyet" ColumnName="LyThuyet" />
+                <ScalarProperty Name="ThucHanh" ColumnName="ThucHanh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NamHocs">
+            <EntityTypeMapping TypeName="PRN292_Demo4Model.NamHoc">
+              <MappingFragment StoreEntitySet="NamHoc">
+                <ScalarProperty Name="Ma_NH" ColumnName="Ma_NH" />
+                <ScalarProperty Name="Ten_NH" ColumnName="Ten_NH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

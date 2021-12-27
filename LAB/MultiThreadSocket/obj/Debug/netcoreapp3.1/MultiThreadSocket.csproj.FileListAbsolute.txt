@@ -1,0 +1,13 @@
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.csprojAssemblyReference.cache
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.AssemblyInfo.cs
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\MultiThreadSocket\bin\Debug\netcoreapp3.1\MultiThreadSocket.exe
+C:\Users\MSI\source\repos\MultiThreadSocket\bin\Debug\netcoreapp3.1\MultiThreadSocket.deps.json
+C:\Users\MSI\source\repos\MultiThreadSocket\bin\Debug\netcoreapp3.1\MultiThreadSocket.runtimeconfig.json
+C:\Users\MSI\source\repos\MultiThreadSocket\bin\Debug\netcoreapp3.1\MultiThreadSocket.runtimeconfig.dev.json
+C:\Users\MSI\source\repos\MultiThreadSocket\bin\Debug\netcoreapp3.1\MultiThreadSocket.dll
+C:\Users\MSI\source\repos\MultiThreadSocket\bin\Debug\netcoreapp3.1\MultiThreadSocket.pdb
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.dll
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.pdb
+C:\Users\MSI\source\repos\MultiThreadSocket\obj\Debug\netcoreapp3.1\MultiThreadSocket.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.csprojAssemblyReference.cache
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.AssemblyInfo.cs
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\bin\Debug\netcoreapp3.1\PRN292_SE1403_NXP.exe
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\bin\Debug\netcoreapp3.1\PRN292_SE1403_NXP.deps.json
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\bin\Debug\netcoreapp3.1\PRN292_SE1403_NXP.runtimeconfig.json
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\bin\Debug\netcoreapp3.1\PRN292_SE1403_NXP.runtimeconfig.dev.json
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\bin\Debug\netcoreapp3.1\PRN292_SE1403_NXP.dll
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\bin\Debug\netcoreapp3.1\PRN292_SE1403_NXP.pdb
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.dll
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.pdb
+C:\Users\MSI\source\repos\PRN292_SE1403_NXP\obj\Debug\netcoreapp3.1\PRN292_SE1403_NXP.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\MSI\source\repos\PRN292_PH3\bin\Debug\netcoreapp3.1\Server.exe
+C:\Users\MSI\source\repos\PRN292_PH3\bin\Debug\netcoreapp3.1\Server.deps.json
+C:\Users\MSI\source\repos\PRN292_PH3\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+C:\Users\MSI\source\repos\PRN292_PH3\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+C:\Users\MSI\source\repos\PRN292_PH3\bin\Debug\netcoreapp3.1\Server.dll
+C:\Users\MSI\source\repos\PRN292_PH3\bin\Debug\netcoreapp3.1\Server.pdb
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.dll
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.pdb
+C:\Users\MSI\source\repos\PRN292_PH3\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
